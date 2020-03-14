@@ -1,6 +1,6 @@
 {
-    "name": "Dev'Coffee",
-    "short_name": "DevCoffee",
+    "name": "Antech",
+    "short_name": "Antech",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#fdfdfd",
@@ -8,15 +8,11 @@
     "orientation": "portrait-primary",
     "icons": [
       {
-        "src": "/images/icons/icon-128x128.png",
-        "type": "image/png",
+        "src": "/images/icons/icon-.jpg",
+        "type": "image/jpg",
         "sizes": "128x128"
-      },
-      {
-        "src": "/images/icons/icon-144x144.png",
-        "type": "image/png",
-        "sizes": "144x144"
       }
+      
       
     ]
   }
