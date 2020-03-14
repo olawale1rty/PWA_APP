@@ -1,8 +1,8 @@
 const container = document.querySelector(".container");
 const coffees = [
   {
-    name: "Antech",
-    image: "images/photo.jpg"
+    name: "Perspiciatis",
+    image: "images/coffee1.jpg"
   },
   {
     name: "Voluptatem",

@@ -5,8 +5,10 @@ const assets = [
   "/css/style.css",
   "/js/app.js",
   "/images/coffee1.jpg",
-  "images/photo.jpg",
-  "/images/icons/icon-.jpg"
+  "/images/coffee2.jpg",
+  "/images/coffee3.jpg",
+  "/images/coffee4.jpg",
+  "/images/coffee5.jpg",
   
 ];
 
