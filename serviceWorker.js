@@ -1,4 +1,4 @@
-const staticDevCoffee = "dev-coffee-site-v1";
+const staticDevCoffee = "dev-coffee-site-v2.0.0";
 const assets = [
   "/",
   "/index.html",
@@ -9,10 +9,7 @@ const assets = [
   "/images/coffee3.jpg",
   "/images/coffee4.jpg",
   "/images/coffee5.jpg",
-  "/images/coffee6.jpg",
-  "/images/coffee7.jpg",
-  "/images/coffee8.jpg",
-  "/images/coffee9.jpg"
+  
 ];
 
 self.addEventListener("install", installEvent => {
