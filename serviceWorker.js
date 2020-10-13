@@ -1,4 +1,4 @@
-const staticSite = "olawale-site-v1.0.0";
+const staticSite = "olawale-v1.0.0";
 const assets = [
   "/",
   "/index.html",
@@ -6,9 +6,9 @@ const assets = [
   "/browserconfig.xml",
   "/assets/css/style.css",
   "/assets/js/main.js",
-  "/assets/js/typed.min.js",
-  "/assets/vendor/",
-  "/assets/img/", 
+  "/assets/js/typed.min.js"
+  // "/assets/vendor/",
+  // "/assets/img/", 
 ];
 
 self.addEventListener("install", installEvent => {
