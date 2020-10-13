@@ -1,20 +1,19 @@
-const staticDevCoffee = "dev-coffee-site-v2.0.0";
+const staticSite = "olawale-site-v1.0.0";
 const assets = [
   "/",
   "/index.html",
-  "/css/style.css",
-  "/js/app.js",
-  "/images/coffee1.jpg",
-  "/images/coffee2.jpg",
-  "/images/coffee3.jpg",
-  "/images/coffee4.jpg",
-  "/images/coffee5.jpg",
-  
+  "/portfolio-details.html",
+  "/browserconfig.xml",
+  "/assets/css/style.css",
+  "/assets/js/main.js",
+  "/assets/js/typed.min.js",
+  "/assets/vendor/",
+  "/assets/img/", 
 ];
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(staticSite).then(cache => {
       cache.addAll(assets);
     })
   );
